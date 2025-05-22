@@ -22,7 +22,7 @@ int main()
         exit(EXIT_FAILURE);
     }
 
-    // clear server address structure for safety
+    // clear server address structure
     memset(&server_addr, 0, sizeof(server_addr));
     
     // server address and port
